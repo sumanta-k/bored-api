@@ -7,3 +7,6 @@ function getData() {
 			document.querySelector("#idea").textContent = data.activity;
 		});
 }
+
+const btn = document.querySelector("#get");
+btn.addEventListener('click', getData);
