@@ -6,3 +6,11 @@
     padding: 10px 15px;
     font-size: 40px;
 }
+
+#container{
+    display: flex;
+    flex-direction: column;
+
+    /* h1 , h2 */
+    text-align : center;
+}
