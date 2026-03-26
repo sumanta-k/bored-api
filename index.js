@@ -5,6 +5,8 @@ function getData() {
 		then((data) => {
 			console.log(data.activity);
 			document.querySelector("#idea").textContent = data.activity;
+			document.querySelector("#title").textContent = "HappyBot";
+			document.body.classList.add("fun");
 		});
 }
 
